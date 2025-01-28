@@ -1,0 +1,70 @@
+.main {
+  margin-top: 70px;
+}
+
+.main-headings {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  margin: 76px 82px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.main-seeMore {
+  display: flex;
+  background-color: white;
+  width: fit-content;
+  border-radius: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  margin: 76px 82px;
+}
+
+.main-seeMore p {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.main-dots-play{
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 15px;
+  margin: 13px 60px;
+}
+
+.main-dots {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  list-style: none;
+}
+
+.main-dot {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-dot.active{
+  background-color: black;
+}
+
+.playStatus {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.playStatus img {
+  cursor: pointer;
+}
+
+.playStatus p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
